@@ -1,0 +1,40 @@
+.navbar {
+  background-color: $navbarBgColor;
+  padding: 15px 10px;
+  display: flex;
+
+
+  &__name {
+    font-weight: 700;
+    width: 40%;
+
+    a {
+      color: $navbarColor;
+      transition: 300ms;
+
+      &:hover {
+        color: $navbarLinksColor;
+      }
+
+    }
+  }
+
+  &__links {
+    @include reset-list;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: $navbarColor;
+    transition: 300ms;
+
+    &:hover {
+      color: $navbarLinksColor;
+
+    }
+
+  }
+
+}
