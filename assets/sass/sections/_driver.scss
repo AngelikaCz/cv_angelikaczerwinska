@@ -1,0 +1,33 @@
+.driver {
+  background-image: url(/assets/img/bg-driver.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__name {
+    color: $driverColor;
+    font-size: 50px;
+  }
+
+  &__position {
+    color: $driverColor;
+    font-size: 35px;
+  }
+
+  &__image {
+    width: 150px;
+    height: 150px;
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+      border: 5px solid $driverElementsColor;
+    }
+  }
+}

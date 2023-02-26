@@ -294,6 +294,7 @@ a {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 .navbar__name {
   font-weight: 700;
@@ -326,4 +327,43 @@ a {
 }
 .navbar__link:hover {
   color: #3757c8;
+}
+
+.driver {
+  background-image: url(/assets/img/bg-driver.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  height: 80vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.driver__name {
+  color: #f0efef;
+  font-size: 50px;
+}
+.driver__position {
+  color: #f0efef;
+  font-size: 35px;
+}
+.driver__image {
+  width: 150px;
+  height: 150px;
+}
+.driver__image img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #f0efef;
 }
