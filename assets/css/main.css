@@ -290,6 +290,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .navbar__name {
   font-weight: 700;
