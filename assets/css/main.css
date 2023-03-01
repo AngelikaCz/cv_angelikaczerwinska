@@ -284,6 +284,10 @@ a {
   margin: 0 auto;
 }
 
+p {
+  line-height: 2;
+}
+
 .navbar {
   background-color: #f0efef;
   padding: 15px 10px;
