@@ -1,0 +1,63 @@
+.projects {
+  h2 {
+    color: $projectsColor;
+    text-align: center;
+  }
+
+  &__section {
+    display: flex;
+    color: $projectsColor;
+    margin: 20px 0 0 0;
+  }
+
+  &__section:nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__text {
+    width: 50%;
+    padding: 0 20px;
+
+    h5 {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    h6 {
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__text:nth-of-type(2) {
+    color: red;
+  }
+
+  &__technologies {
+    @include reset-list;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    margin: 10px 0 0 0;
+    display: block;
+    text-align: center;
+  }
+
+  &__link {
+    margin: 10px 0 0 0;
+    display: block;
+    color: $projectsColor;
+    text-align: center;
+    transition: 300ms;
+
+    &:hover {
+      color: $projectsLinkHoverColor;
+    }
+  }
+}
