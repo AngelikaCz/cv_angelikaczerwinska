@@ -290,29 +290,32 @@ p {
 
 .navbar {
   background-color: #f0efef;
-  padding: 15px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 10;
 }
-.navbar__name {
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 40px;
+}
+.nav__name {
   font-weight: 700;
   width: 40%;
 }
-.navbar__name a {
+.nav__name a {
   color: #3f4042;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
-.navbar__name a:hover {
+.nav__name a:hover {
   color: #3757c8;
 }
-.navbar__links {
+.nav__links {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -324,12 +327,12 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.navbar__link {
+.nav__link {
   color: #3f4042;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
-.navbar__link:hover {
+.nav__link:hover {
   color: #3757c8;
 }
 
