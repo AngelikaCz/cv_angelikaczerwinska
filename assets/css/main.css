@@ -273,6 +273,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h2 {
+  color: #3f4042;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -438,10 +443,6 @@ p {
   color: #f0efef;
 }
 
-.projects h2 {
-  color: #3f4042;
-  text-align: center;
-}
 .projects__section {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -2,6 +2,11 @@ body {
   font-family: $mainFontFamily;
 }
 
+h2 {
+  color: $mainFontColor;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
