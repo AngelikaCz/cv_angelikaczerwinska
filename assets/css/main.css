@@ -566,3 +566,16 @@ p {
   font-size: 16px;
   color: #3f4042;
 }
+
+.copyrights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.copyrights__copy {
+  color: #3f4042;
+  font-size: 14px;
+}

@@ -1,0 +1,9 @@
+.copyrights {
+  display: flex;
+  justify-content: center;
+
+  &__copy {
+    color: $copyrightsColor;
+    font-size: 14px;
+  }
+}
