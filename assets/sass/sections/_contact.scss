@@ -1,0 +1,27 @@
+.contact {
+
+  background-color: $contactBgColor;
+
+  &__headline {
+    padding: 30px 0;
+  }
+
+  &__details {
+    display: flex;
+  }
+
+  &__section {
+    width: calc(100%/3);
+    text-align: center;
+
+    i {
+      font-size: 40px;
+      color: $contactIcons;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    color: $contactColor;
+  }
+}
