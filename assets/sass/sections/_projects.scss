@@ -8,14 +8,26 @@
     display: flex;
     color: $projectsColor;
     margin: 20px 0 0 0;
+
+    @include smallSmartphone {
+      flex-direction: column;
+    }
   }
 
   &__section:nth-of-type(2) {
     flex-direction: row-reverse;
+
+    @include smallSmartphone {
+      flex-direction: column;
+    }
   }
 
   &__img {
     width: 50%;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
   }
 
   &__text {
@@ -23,6 +35,10 @@
     padding: 0 20px;
     position: relative;
     text-align: center;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
 
     h5 {
       font-size: 20px;
@@ -41,6 +57,12 @@
       top: 30px;
       left: 50%;
       translate: -50%;
+    }
+
+    p {
+      @include smallSmartphone {
+        display: none;
+      }
     }
 
     h6 {
