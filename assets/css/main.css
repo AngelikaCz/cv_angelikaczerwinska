@@ -276,6 +276,7 @@ body {
 h2 {
   color: #3f4042;
   text-align: center;
+  padding: 20px;
 }
 
 a {
@@ -441,6 +442,10 @@ p {
 .about__link a i {
   font-size: 30px;
   color: #f0efef;
+}
+
+.projects-main {
+  background-color: #f0efef;
 }
 
 .projects__section {
