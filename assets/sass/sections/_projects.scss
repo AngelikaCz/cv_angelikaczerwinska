@@ -33,26 +33,26 @@
     }
   }
 
-  &__text:nth-of-type(2) {
-    color: red;
-  }
-
   &__technologies {
     @include reset-list;
     display: flex;
     justify-content: space-around;
+    margin: 20px 0;
   }
 
-  &__icon {
-    margin: 10px 0 0 0;
-    display: block;
-    text-align: center;
+  &__button {
+    background-color: $projectsButtonColor;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px $projectsButtonShadow;
+    line-height: 40px;
+    max-width: 200px;
+    margin: 10px auto;
   }
 
   &__link {
     margin: 10px 0 0 0;
     display: block;
-    color: $projectsColor;
+    color: $projectsLinkColor;
     text-align: center;
     transition: 300ms;
 
