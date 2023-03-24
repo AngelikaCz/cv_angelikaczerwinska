@@ -3,11 +3,21 @@
   color: $aboutColor;
   margin: 50px 0;
 
+  @include smallSmartphone {
+    flex-direction: column;
+  }
+
   &__info {
     width: 50%;
 
+    @include smallSmartphone {
+      width: 100%;
+      text-align: center;
+    }
+
     h3 {
       font-size: 40px;
+
     }
 
     h4 {
@@ -22,6 +32,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
+
   }
 
   &__link {

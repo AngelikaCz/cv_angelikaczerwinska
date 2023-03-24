@@ -16,13 +16,13 @@
     }
 }
 
-@mixin bigSmarthphone {
+@mixin bigSmartphone {
     @media (max-width:768px) {
         @content;
     }
 }
 
-@mixin smallSmarthphone {
+@mixin smallSmartphone {
     @media (max-width:500px) {
         @content;
     }
