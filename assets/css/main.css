@@ -467,14 +467,30 @@ p {
 .projects__text {
   width: 50%;
   padding: 0 20px;
+  position: relative;
+  text-align: center;
 }
 .projects__text h5 {
   font-size: 20px;
   text-transform: uppercase;
+  position: relative;
+  text-align: center;
+}
+.projects__text h5::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 4px;
+  background-color: #3f4042;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  translate: -50%;
 }
 .projects__text h6 {
   font-size: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 .projects__technologies {
   margin: 0;
