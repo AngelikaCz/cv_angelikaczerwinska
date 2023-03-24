@@ -2,8 +2,17 @@
   display: flex;
   color: $education-skillsColor;
 
+  @include smallSmartphone {
+    text-align: center;
+    flex-direction: column;
+  }
+
   &__education {
     width: 60%;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
 
     p {
       font-size: 14px;
@@ -27,6 +36,10 @@
     align-content: center;
     row-gap: 40px;
     text-align: center;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
 
     i {
       font-size: 90px;

@@ -8,11 +8,20 @@
 
   &__details {
     display: flex;
+
+    @include smallSmartphone {
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 
   &__section {
     width: calc(100%/3);
     text-align: center;
+
+    @include smallSmartphone {
+      width: 100%;
+    }
 
     i {
       font-size: 40px;
