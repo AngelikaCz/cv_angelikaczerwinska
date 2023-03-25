@@ -321,6 +321,29 @@ p {
 .nav__name a:hover {
   color: #3757c8;
 }
+@media (max-width: 768px) {
+  .nav__name {
+    display: none;
+  }
+}
+.nav__short-name {
+  display: none;
+  font-weight: 700;
+  width: 40%;
+}
+.nav__short-name a {
+  color: #3f4042;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.nav__short-name a:hover {
+  color: #3757c8;
+}
+@media (max-width: 768px) {
+  .nav__short-name {
+    display: block;
+  }
+}
 .nav__links {
   margin: 0;
   padding: 0;

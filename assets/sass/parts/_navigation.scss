@@ -24,6 +24,30 @@
       }
 
     }
+
+    @include bigSmartphone {
+      display: none;
+    }
+  }
+
+  &__short-name {
+    display: none;
+    font-weight: 700;
+    width: 40%;
+
+    a {
+      color: $navbarColor;
+      transition: 300ms;
+
+      &:hover {
+        color: $navbarLinksColor;
+      }
+
+    }
+
+    @include bigSmartphone {
+      display: block;
+    }
   }
 
   &__links {
