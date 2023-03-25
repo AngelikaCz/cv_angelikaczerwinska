@@ -365,11 +365,11 @@ p {
 }
 .driver__name {
   color: #f0efef;
-  font-size: 50px;
+  font-size: clamp(1.875rem, 1.4229rem + 2.1277vw, 3.125rem);
 }
 .driver__position {
   color: #f0efef;
-  font-size: 35px;
+  font-size: clamp(1.25rem, 0.9109rem + 1.5957vw, 2.1875rem);
 }
 .driver__image {
   width: 150px;
