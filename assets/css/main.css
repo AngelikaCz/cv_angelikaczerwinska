@@ -377,6 +377,36 @@ p {
     display: block;
   }
 }
+.nav__hamburger span {
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  position: absolute;
+  background-color: #000;
+}
+.nav__hamburger span:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+.nav__hamburger span:nth-of-type(2) {
+  left: 0;
+  top: 10px;
+}
+.nav__hamburger span:nth-of-type(3) {
+  left: 0;
+  top: 20px;
+}
+.nav__hamburger--active span:nth-of-type(2) {
+  display: none;
+}
+.nav__hamburger--active span:nth-of-type(1) {
+  top: 10px;
+  rotate: 45deg;
+}
+.nav__hamburger--active span:nth-of-type(3) {
+  top: 10px;
+  rotate: -45deg;
+}
 
 .driver {
   background-image: url(/assets/img/bg-driver.jpg);
