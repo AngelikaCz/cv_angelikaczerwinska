@@ -341,6 +341,19 @@ p {
 .nav__link:hover {
   color: #3757c8;
 }
+.nav__hamburger {
+  width: 40px;
+  height: 24px;
+  background: none;
+  border: 0;
+  position: relative;
+  display: none;
+}
+@media (max-width: 768px) {
+  .nav__hamburger {
+    display: block;
+  }
+}
 
 .driver {
   background-image: url(/assets/img/bg-driver.jpg);
