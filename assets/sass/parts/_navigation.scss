@@ -11,6 +11,21 @@
   display: flex;
   line-height: 40px;
 
+  &--open {
+    .nav__links {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+    }
+  }
+
   &__name {
     font-weight: 700;
     width: 40%;
@@ -55,6 +70,10 @@
     display: flex;
     width: 60%;
     justify-content: space-between;
+
+    @include forTablet {
+      display: none;
+    }
   }
 
   &__link {
@@ -63,29 +82,31 @@
 
     &:hover {
       color: $navbarLinksColor;
-
     }
 
   }
 
   &__hamburger {
-    width: 40px;
+    width: 30px;
     height: 24px;
     background: none;
     border: 0;
-    position: relative;
+    position: fixed;
+    right: 15px;
+    top: 10px;
     display: none;
 
+
     @include bigSmartphone {
-      display: block;
+      display: inline-block
     }
 
     span {
-      width: 40px;
-      height: 4px;
+      width: 25px;
+      height: 3px;
       border-radius: 4px;
       position: absolute;
-      background-color: #000;
+      background-color: $navbarHamburgerColor;
 
       &:nth-of-type(1) {
         top: 0;
@@ -95,12 +116,12 @@
 
       &:nth-of-type(2) {
         left: 0;
-        top: 10px;
+        top: 7px;
       }
 
       &:nth-of-type(3) {
         left: 0;
-        top: 20px;
+        top: 14px;
       }
     }
 
