@@ -29,6 +29,24 @@
     }
   }
 
+  &__link {
+    display: inline-block;
+    color: $education-skillsButtonColor;
+    font-weight: 600;
+    background-color: $education-skillsButtonBgColor;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px $projectsButtonShadow;
+    transition: 300ms;
+  }
+
+  &__link:hover {
+    color: $education-skillsButtonHoverColor;
+    font-weight: 600;
+    background-color: $education-skillsButtonHoverBgColor;
+  }
+
+
   &__skills {
     width: 40%;
     display: flex;
@@ -39,6 +57,7 @@
 
     @include smallSmartphone {
       width: 100%;
+      margin: 50px 0 0 0;
     }
 
     i {
