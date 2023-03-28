@@ -276,7 +276,8 @@ body {
 h2 {
   color: #3f4042;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+  font-size: clamp(1.25rem, 1.0239rem + 1.0638vw, 1.875rem);
 }
 
 a {
