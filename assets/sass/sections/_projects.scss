@@ -86,6 +86,10 @@
     line-height: 40px;
     max-width: 200px;
     margin: 10px auto;
+
+    &:hover {
+      background-color: $projectsButtonHoverColor;
+    }
   }
 
   &__link {
@@ -95,8 +99,5 @@
     text-align: center;
     transition: 300ms;
 
-    &:hover {
-      color: $projectsLinkHoverColor;
-    }
   }
 }
