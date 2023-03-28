@@ -1,5 +1,6 @@
 .projects-main {
   background-color: $projectsBgColor;
+  padding: 0 0 50px 0;
 }
 
 .projects {
@@ -76,7 +77,7 @@
     @include reset-list;
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 40px 0;
   }
 
   &__button {
@@ -93,7 +94,6 @@
   }
 
   &__link {
-    margin: 10px 0 0 0;
     display: block;
     color: $projectsLinkColor;
     text-align: center;
