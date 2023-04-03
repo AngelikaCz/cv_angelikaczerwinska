@@ -378,7 +378,7 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .nav__links {
     display: none;
   }
