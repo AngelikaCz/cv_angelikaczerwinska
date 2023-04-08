@@ -23,8 +23,12 @@
     }
   }
 
+  &__image-box {
+    width: 50%
+  }
+
   &__img {
-    width: 50%;
+    width: 100%;
 
     @include smallSmartphone {
       width: 100%;

@@ -592,8 +592,11 @@ p {
             flex-direction: column;
   }
 }
-.projects__img {
+.projects__image-box {
   width: 50%;
+}
+.projects__img {
+  width: 100%;
 }
 @media (max-width: 500px) {
   .projects__img {
