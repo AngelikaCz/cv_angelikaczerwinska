@@ -458,6 +458,11 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.driver__headline {
+  background-color: rgba(24, 25, 28, 0.4392156863);
+  padding: 0 20px;
+  border-radius: 15px;
+}
 .driver__name {
   color: #f0efef;
   font-size: clamp(1.875rem, 1.4229rem + 2.1277vw, 3.125rem);
@@ -467,6 +472,7 @@ p {
   font-size: clamp(1.25rem, 0.9109rem + 1.5957vw, 2.1875rem);
 }
 .driver__image {
+  margin: 20px 0 0 0;
   width: 150px;
   height: 150px;
 }
