@@ -1,5 +1,9 @@
 .contact {
 
+  h2 {
+    color: $contactColor;
+  }
+
   background-color: $contactBgColor;
 
   &__headline {

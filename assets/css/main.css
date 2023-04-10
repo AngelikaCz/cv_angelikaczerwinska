@@ -274,7 +274,6 @@ body {
 }
 
 h2 {
-  color: #3f4042;
   text-align: center;
   padding: 20px 0;
   font-size: clamp(1.25rem, 1.0239rem + 1.0638vw, 1.875rem);
@@ -296,7 +295,7 @@ p {
 }
 
 .navbar {
-  background-color: #f0efef;
+  background-color: #1a1e25;
   position: fixed;
   width: 100%;
   top: 0;
@@ -336,7 +335,7 @@ p {
   width: 40%;
 }
 .nav__name a {
-  color: #3f4042;
+  color: #f0efef;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
@@ -354,7 +353,7 @@ p {
   width: 40%;
 }
 .nav__short-name a {
-  color: #3f4042;
+  color: #f0efef;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
@@ -384,7 +383,7 @@ p {
   }
 }
 .nav__link {
-  color: #3f4042;
+  color: #f0efef;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
@@ -411,7 +410,7 @@ p {
   height: 3px;
   border-radius: 4px;
   position: absolute;
-  background-color: #3f4042;
+  background-color: #f0efef;
 }
 .nav__hamburger span:nth-of-type(1) {
   top: 0;
@@ -494,7 +493,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #3f4042;
+  color: #1a1e25;
   margin: 50px 0;
 }
 @media (max-width: 500px) {
@@ -547,7 +546,7 @@ p {
   display: block;
   width: 50px;
   height: 50px;
-  background-color: #3757c8;
+  background-color: #1a1e25;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,10 +561,10 @@ p {
   transition: 300ms;
 }
 .about__link a:hover {
-  background-color: #f0efef;
+  background-color: #3757c8;
 }
 .about__link a:hover i {
-  color: #3757c8;
+  color: #1a1e25;
 }
 .about__link a i {
   font-size: 30px;
@@ -573,15 +572,18 @@ p {
 }
 
 .projects-main {
-  background-color: #f0efef;
+  background-color: #1a1e25;
   padding: 0 0 50px 0;
+}
+.projects-main h2 {
+  color: #f0efef;
 }
 
 .projects__section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #3f4042;
+  color: #f0efef;
   margin: 20px 0 0 0;
 }
 @media (max-width: 500px) {
@@ -639,7 +641,7 @@ p {
   display: block;
   width: 200px;
   height: 4px;
-  background-color: #3f4042;
+  background-color: #f0efef;
   position: absolute;
   top: 30px;
   left: 50%;
@@ -667,7 +669,7 @@ p {
   margin: 40px 0;
 }
 .projects__button {
-  background-color: #3757c8;
+  background-color: #f0efef;
   border-radius: 5px;
   -webkit-box-shadow: 5px 5px 5px rgba(24, 25, 28, 0.7529411765);
           box-shadow: 5px 5px 5px rgba(24, 25, 28, 0.7529411765);
@@ -675,22 +677,31 @@ p {
   max-width: 200px;
   margin: 10px auto;
 }
-.projects__button:hover {
-  background-color: #3f4042;
-}
 .projects__link {
   display: block;
-  color: #f0efef;
+  color: #1a1e25;
   text-align: center;
+  font-weight: 400;
   -webkit-transition: 300ms;
   transition: 300ms;
+}
+.projects__link:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(24, 25, 28, 0.7529411765);
+          box-shadow: 5px 5px 5px rgba(24, 25, 28, 0.7529411765);
+  background-color: #3757c8;
+  color: #f0efef;
+}
+
+h2 {
+  color: #1a1e25;
 }
 
 .edu-skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #3f4042;
+  color: #1a1e25;
 }
 @media (max-width: 500px) {
   .edu-skills {
@@ -726,9 +737,9 @@ p {
 }
 .edu-skills__link {
   display: inline-block;
-  color: #f0efef;
+  color: #1a1e25;
   font-weight: 600;
-  background-color: #3f4042;
+  background-color: #f0efef;
   padding: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 5px 5px 5px rgba(24, 25, 28, 0.7529411765);
@@ -737,9 +748,9 @@ p {
   transition: 300ms;
 }
 .edu-skills__link:hover {
-  color: #3f4042;
+  color: #f0efef;
   font-weight: 600;
-  background-color: #f0efef;
+  background-color: #1a1e25;
 }
 .edu-skills__skills {
   width: 40%;
@@ -766,7 +777,10 @@ p {
 }
 
 .contact {
-  background-color: #f0efef;
+  background-color: #1a1e25;
+}
+.contact h2 {
+  color: #f0efef;
 }
 .contact__headline {
   padding: 30px 0;
@@ -798,11 +812,11 @@ p {
 }
 .contact__section i {
   font-size: 40px;
-  color: #3757c8;
+  color: #f0efef;
 }
 .contact__text {
   font-size: 16px;
-  color: #3f4042;
+  color: #f0efef;
 }
 
 .copyrights {
@@ -814,6 +828,6 @@ p {
           justify-content: center;
 }
 .copyrights__copy {
-  color: #3f4042;
+  color: #1a1e25;
   font-size: 14px;
 }
