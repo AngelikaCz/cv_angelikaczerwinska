@@ -442,7 +442,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,23 +458,31 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
-.driver__headline {
-  background-color: rgba(24, 25, 28, 0.4392156863);
-  padding: 0 20px;
-  border-radius: 15px;
+.driver::after {
+  content: " ";
+  background-color: rgba(0, 0, 0, 0.5450980392);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .driver__name {
   color: #f0efef;
   font-size: clamp(1.875rem, 1.4229rem + 2.1277vw, 3.125rem);
+  z-index: 3;
+  margin: 0;
 }
 .driver__position {
   color: #f0efef;
   font-size: clamp(1.25rem, 0.9109rem + 1.5957vw, 2.1875rem);
+  z-index: 3;
 }
 .driver__image {
   margin: 20px 0 0 0;
   width: 150px;
   height: 150px;
+  z-index: 3;
 }
 .driver__image img {
   width: 100%;

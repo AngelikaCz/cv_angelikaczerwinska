@@ -3,33 +3,42 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  &__headline {
-    background-color: $driverTitleBgColor;
-    padding: 0 20px;
-    border-radius: 15px;
+  &::after {
+    content: " ";
+    background-color: #0000008b;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
+
 
   &__name {
     color: $driverColor;
     font-size: clamp(1.875rem, 1.4229rem + 2.1277vw, 3.125rem);
+    z-index: 3;
+    margin: 0;
   }
 
   &__position {
     color: $driverColor;
     font-size: clamp(1.25rem, 0.9109rem + 1.5957vw, 2.1875rem);
+    z-index: 3;
   }
 
   &__image {
     margin: 20px 0 0 0;
     width: 150px;
     height: 150px;
+    z-index: 3;
 
     img {
       width: 100%;
